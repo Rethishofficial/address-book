@@ -1,0 +1,36 @@
+header {
+    background-color: #121212;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    border-bottom: 1px solid #333333;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    flex-grow: 1;
+}
+
+header nav {
+    display: flex;
+    gap: 16px;
+}
+
+header nav button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: all 200ms ease;
+}
+
+header nav button:hover {
+    color: #03DAC6;
+    text-decoration: underline;
+} 

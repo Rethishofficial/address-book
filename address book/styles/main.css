@@ -1,0 +1,47 @@
+main h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+main p {
+    font-size: 16px;
+    color: #B0B0B0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+.card {
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    padding: 24px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #B0B0B0;
+    margin-bottom: 24px;
+}
+
+.card button {
+    width: 100%;
+} 
